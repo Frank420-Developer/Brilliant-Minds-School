@@ -1,0 +1,47 @@
+/*RESOURCES*/
+.enlace-drive{
+    background-color: rgba(147,147,147,0.7);
+    height: 52px;
+    position: absolute;
+    right: 17px;
+    width: 52px;
+    z-index: 15;
+    transform: all .3s ease;
+}
+.enlace-icono{
+    fill: white;
+    height: 18px;
+    left: 17px;
+    position: relative;
+    top: 17px;
+    width: 18px;
+}
+.enlace-drive:hover{
+    background: rgba(147, 147, 147, 0.356);
+}
+.iframe{
+    width: 500px;
+    position: relative;
+    height: 364px;
+    box-shadow: rgba(50, 50, 93, 1) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background: #fff;
+    bottom: 0;
+    height: 400px;
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 20px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.window{
+    position: relative;
+}
+.resource-title{
+    background: var(--azul);
+    color: white;
+    padding: 30px 100px;
+}

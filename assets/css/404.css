@@ -1,0 +1,16 @@
+/*404 NOT FOUND*/
+.not{
+    max-width: 300px;
+    display: flex;
+    margin: 0 auto;
+}
+.error{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.error .btn-red:hover{
+    border: 1px solid var(--rojo);
+}

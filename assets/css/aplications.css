@@ -1,0 +1,22 @@
+/*APLICATIONS*/
+.tools .img{
+    width: 50%;
+}
+.tools-info{
+    width: 50%;
+}
+.tools-info h2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--font_sans);
+}
+@media (max-width:750px) {
+    .tools{
+        display: block;
+    }
+    .tools .img,
+    .tools-info{
+        padding: 30px 20px !important;
+        width: 100%;
+    }
+}

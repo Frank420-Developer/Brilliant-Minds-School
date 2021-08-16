@@ -1,0 +1,157 @@
+h1{
+    font-size:50px;
+}
+h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/*CONTENIDO*/
+.content{
+    padding: 40px;
+}
+.history{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.history-info h2{
+    font-size: 50px;
+}
+.history-info p{
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+.linea{
+    width: 100px;
+    height: 2px;
+    background-color: var(--amarillo);
+    margin: 20px 0;
+}
+.history-imagen {
+    display: flex;
+    justify-content: center;
+}
+.history-info{
+    padding: 0 30px;
+}
+.history-imagen img{
+    width: 100%;
+    padding: 30px 15px;
+}
+@media (max-width: 768px) {
+    .history{
+        display: block;
+    }
+    .history-info{
+        padding: 0;
+    }
+}
+
+/*AREAS*/
+.areas{
+    margin: 50px 0;
+    line-height: 2;
+    padding: 0 40px;
+}
+.academica li,
+.practica li{
+    padding: 7px 0;
+    list-style: none;
+}
+.academica span,
+.practica span{
+    font-weight: bold;
+}
+@media (max-width:768px) {
+    .academica,
+    .practica{
+        padding-left: 30px;
+    }
+    .areas{
+        margin: 0;
+        padding: 0;
+    }
+    .imagenes{
+        padding: 30px 0;
+    }
+    .about{
+        padding: 40px 0 !important;
+    }
+}
+
+/*Imagenes*/
+.imagenes{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    
+}
+.imagen img{
+    width: 100%;
+}
+@media (max-width:768px) {
+    .imagenes{
+        flex-direction: column;
+        text-align: center;
+    }
+    .imagen{
+        display: flex;
+        justify-content: center;
+    }
+    .imagen img{
+        width: 90%;
+    }
+}
+
+/*ABOUT*/
+.about{
+    display: flex;
+    margin: 0 auto;
+    padding: 40px ;
+}
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    
+}
+.lista-valores li{
+    list-style-position: inside;
+}
+.mision,
+.valores{
+    padding-right: 50px;
+    line-height: 2;
+    
+}
+.mision .linea,
+.valores .linea{
+    margin: 10px auto;
+}
+.mision h2,
+.valores h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+@media (max-width: 900px) {
+    .about-content{
+        grid-template-columns: 100%;
+        gap: 50px;
+    }
+    .valores{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .valores .linea{
+        margin-top:  -7px;
+    }
+    .mision,
+    .valores{
+        padding: 0;
+    }
+}

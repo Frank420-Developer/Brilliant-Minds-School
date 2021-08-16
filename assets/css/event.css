@@ -1,0 +1,32 @@
+/*EVENT-PAGE*/
+.box-left img{
+    width: 100%;
+}
+.teacher-name i{
+    color: gray;
+}
+.teacher-name h4, 
+.teacher-name a{
+    color: var(--rojo);
+}
+.teacher-name h4{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: var(--font_merri);
+    text-align: left;
+}
+.event-i h2{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+.event-i .linea{
+    width: 50px;
+    height: 3px;
+    margin-bottom: 30px;
+}
+@media (max-width:850px) {
+    .grid{
+        display: block;
+    }
+}

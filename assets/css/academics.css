@@ -1,0 +1,87 @@
+/*ACADEMICS*/
+
+.sec-cont h2{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: var(--font_merri) ;
+}
+.sec-cont h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: var(--font_merri) ;
+}
+.sec-cont .linea{
+    width: 50px;
+    height: 3px;
+    margin-top: 20px;
+}
+.panel .btn-red:hover{
+    border: 2px solid var(--azul);
+}
+
+.contenedor .flex{
+    flex-direction: column;
+}
+.menu{
+    border-top: 1px solid gray;
+}
+.box-right,
+.box-left{
+    width: 100%;
+    padding: 30px 0 !important  ;
+}
+.sec h4{
+    text-align: left;
+    border-right: 0;
+    color: var(--rojo);
+}
+.sec > .btn{
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    color: var(--rojo);
+    background-color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sec > .btn:hover{
+    border-right: 0 !important;
+    color: black;
+    background-color: var(--gris);
+}
+.btn.active{
+    background-color: var(--gris_hover);
+    color: black;
+}
+.sec > .btn:after{
+    content: "\2795";
+    font-size: 1.3rem;
+    color: #777;
+    top: 5px;
+    margin-left: 1rem;
+    position: relative;
+}
+.active:after{
+    content: '\2796';
+}
+
+.panel{
+    display: flex;
+    flex-direction: column;       
+    padding: .5rem 1.5rem;
+    color: var(--blanco);
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity .1s ease-out;
+    opacity: 0;
+    margin: 0;
+    line-height: 1.5;
+    text-align:left;
+    align-items: center;
+}   
+.mostrar{
+    opacity: 1;
+    max-height: 90%;
+}
